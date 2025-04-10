@@ -1,13 +1,5 @@
-import { Button } from '@heroui/react';
-import type { MetaFunction } from '@remix-run/node';
-
-export const meta: MetaFunction = () => {
-  return [
-    { title: 'New Remix App' },
-    { name: 'description', content: 'Welcome to Remix!' },
-  ];
-};
+import { Button } from '@heroui/react'
 
 export default function Index() {
-  return <Button color="primary">Thai Dương</Button>;
+  return <Button color="primary">Thai Dương</Button>
 }

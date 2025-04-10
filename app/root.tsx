@@ -1,17 +1,17 @@
-import { HeroUIProvider } from '@heroui/react';
-import type { MetaFunction } from '@remix-run/node';
+import { HeroUIProvider } from '@heroui/react'
+import type { MetaFunction } from '@remix-run/node'
 import {
   Links,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
-} from '@remix-run/react';
-import './tailwind.css';
+} from '@remix-run/react'
+import './tailwind.css'
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Very cool app | Remix' }];
-};
+  return [{ title: 'GĐPT Thai Dương' }]
+}
 
 export default function App() {
   return (
@@ -30,5 +30,5 @@ export default function App() {
         </HeroUIProvider>
       </body>
     </html>
-  );
+  )
 }
