@@ -11,8 +11,27 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Nunito', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-        serif: ['PT Serif', 'ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+        sans: [
+          'Quicksand',
+          'ui-sans-serif',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
+          'sans-serif',
+        ],
+        serif: [
+          'Poltawski Nowy',
+          'ui-serif',
+          'Georgia',
+          'Cambria',
+          'Times New Roman',
+          'Times',
+          'serif',
+        ],
       },
     },
   },

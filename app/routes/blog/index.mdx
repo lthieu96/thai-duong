@@ -1,0 +1,19 @@
+---
+title: My MDX Page
+author: Jane Doe
+---
+
+import { Button, Input } from "@heroui/react"
+
+export const metadata = {
+  title: frontmatter.title,
+  author: frontmatter.author
+}
+
+# {frontmatter.title}
+
+By {frontmatter.author} hiếu
+
+<Button color="primary">Button</Button>
+
+<Input/>
