@@ -12,7 +12,7 @@ export default {
     extend: {
       fontFamily: {
         sans: [
-          'Quicksand',
+          'Nunito',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
@@ -24,7 +24,7 @@ export default {
           'sans-serif',
         ],
         serif: [
-          'Poltawski Nowy',
+          'Playfair Display',
           'ui-serif',
           'Georgia',
           'Cambria',

@@ -27,13 +27,13 @@ export default function App() {
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
           rel="stylesheet"
         />
         <Meta />
         <Links />
       </head>
-      <body suppressHydrationWarning className="bg-background/70">
+      <body suppressHydrationWarning className="bg-background">
         <HeroUIProvider>
           <Layout>
             <Outlet />
