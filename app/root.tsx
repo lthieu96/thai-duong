@@ -33,7 +33,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body suppressHydrationWarning className="bg-background">
+      <body suppressHydrationWarning className="bg-background/70">
         <HeroUIProvider>
           <Layout>
             <Outlet />

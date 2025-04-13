@@ -9,7 +9,7 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="space-y-8">
               <div className="space-y-2">
-                <h1 className="text-3xl md:text-4xl lg:text-4xl font-semibold font-serif text-slate-500">
+                <h1 className="text-3xl md:text-4xl lg:text-4xl font-semibold font-serif text-slate-600">
                   Giới thiệu về
                 </h1>
                 <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold font-serif">
@@ -18,9 +18,8 @@ export default function Index() {
               </div>
               <div className="space-y-6">
                 <p className="max-w-md text-lg font-semibold text-slate-600">
-                  GĐPT Thai Dương là một tổ chức Đào luyện thanh – thiếu – đồng
-                  niên tin Phật thành Phật tử chân chính, góp phần phụng sự đạo
-                  pháp và xây dựng xã hội.
+                  Đào luyện thanh – thiếu – đồng niên tin Phật thành Phật tử
+                  chân chính, góp phần phụng sự đạo pháp và xây dựng xã hội.
                 </p>
                 <p className="max-w-md text-lg font-semibold text-slate-600">
                   Chúng tôi tập trung vào việc giáo dục và phát triển toàn diện
