@@ -9,6 +9,7 @@ import {
 } from '@remix-run/react'
 import { Layout } from './components/Layout'
 import './tailwind.css'
+import './landing-page.css'
 
 export const meta: MetaFunction = () => {
   return [{ title: 'GĐPT Thai Dương' }]
@@ -33,7 +34,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body suppressHydrationWarning className="bg-background/70">
+      <body suppressHydrationWarning className=" magicpattern">
         <HeroUIProvider>
           <Layout>
             <Outlet />

@@ -23,6 +23,7 @@ export function NavbarComponent() {
         item: 'data-[active=true]:text-primary',
         wrapper: 'px-4 sm:px-6 ',
         brand: 'font-serif',
+        base: 'bg-transparent border-none ',
       }}
       height="60px"
       className="border-b"
@@ -77,7 +78,7 @@ export function NavbarComponent() {
       </NavbarItem>
 
       {/* Mobile Menu */}
-      <NavbarMenu>
+      <NavbarMenu className="bg-transparent border-none">
         {mainNavigation.map((item) => (
           <NavbarMenuItem key={item.path}>
             <NavLink
