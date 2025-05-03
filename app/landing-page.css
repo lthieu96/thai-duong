@@ -3,7 +3,7 @@
   background-image: radial-gradient(at 42% 26%, #f9f5f6 0%, transparent 60%), radial-gradient(at 27% 72%, #f8e8ee 0%, transparent 50%), radial-gradient(at 24% 99%, #fdcedf 0%, transparent 40%), radial-gradient(at 76% 56%, #f2bed1 0%, transparent 30%);
 }
 
-.magicpattern { 
+.magicpattern-landing { 
   width: 100%;
   height: 100%;
   background-size: cover;

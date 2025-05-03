@@ -10,6 +10,7 @@ import {
 import { Layout } from './components/Layout'
 import './tailwind.css'
 import './landing-page.css'
+import './styles/magic-pattern.css'
 
 export const meta: MetaFunction = () => {
   return [{ title: 'GĐPT Thai Dương' }]
@@ -34,7 +35,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body suppressHydrationWarning className=" magicpattern">
+      <body suppressHydrationWarning className="magicpattern-landing">
         <HeroUIProvider>
           <Layout>
             <Outlet />
