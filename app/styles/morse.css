@@ -1,0 +1,61 @@
+/* Morse code visual representation styles */
+.morse-visual-container {
+  min-height: 80px;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.morse-dot {
+  width: 20px;
+  height: 20px;
+  background-color: #0070f3;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.morse-dash {
+  width: 60px;
+  height: 20px;
+  background-color: #0070f3;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.morse-space {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.morse-word-space {
+  width: 60px;
+  height: 20px;
+  display: inline-block;
+}
+
+/* Morse reference table styles */
+.morse-reference-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.morse-reference-table th,
+.morse-reference-table td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.morse-reference-table th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+.morse-reference-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}

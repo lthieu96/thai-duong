@@ -1,7 +1,7 @@
 export interface NavItem {
-  label: string;
-  path: string;
-  children?: NavItem[];
+  label: string
+  path: string
+  children?: NavItem[]
 }
 
 export const mainNavigation: NavItem[] = [
@@ -15,9 +15,9 @@ export const mainNavigation: NavItem[] = [
   },
   {
     label: 'Công cụ',
-    path: '/cong-cu',
+    path: '/tools',
   },
-];
+]
 
 // This can be expanded later with additional navigation sections
 export const footerNavigation: NavItem[] = [
@@ -29,7 +29,7 @@ export const footerNavigation: NavItem[] = [
     label: 'Liên hệ',
     path: '/contact',
   },
-];
+]
 
 // Example of nested navigation for future expansion
 export const userNavigation: NavItem[] = [
@@ -47,4 +47,4 @@ export const userNavigation: NavItem[] = [
       },
     ],
   },
-];
+]

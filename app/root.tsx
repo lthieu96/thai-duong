@@ -11,6 +11,7 @@ import { Layout } from './components/Layout'
 import './tailwind.css'
 import './landing-page.css'
 import './styles/magic-pattern.css'
+import './styles/morse-tool.css'
 
 export const meta: MetaFunction = () => {
   return [{ title: 'GĐPT Thai Dương' }]

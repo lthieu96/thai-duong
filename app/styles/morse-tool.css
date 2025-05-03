@@ -1,0 +1,84 @@
+/* Morse Code Tool Styles */
+
+.morse-visual-container {
+  width: 100%;
+  height: 100px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.morse-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #005c01;
+  margin: 0 5px;
+}
+
+.morse-dash {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #005c01;
+  margin: 0 5px;
+}
+
+.morse-space {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.morse-word-space {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+.morse-reference-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.morse-reference-table th,
+.morse-reference-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.morse-reference-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.morse-reference-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.morse-reference-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+/* Animation for the visual representation */
+@keyframes morse-blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.morse-animate-dot {
+  animation: morse-blink 0.5s ease-in-out;
+}
+
+.morse-animate-dash {
+  animation: morse-blink 1.5s ease-in-out;
+}
